@@ -185,7 +185,7 @@ int main() {
 g++ main.cpp -o matrix_program
 ```
 
-2-R un the program:
+2- Run the program:
 ```bash
 ./matrix_program
 ```
@@ -196,6 +196,6 @@ C++11 or higher: Required for features like std::vector, exceptions, etc.
 cmath: For mathematical operations like calculating magnitudes and square roots.
 
 
-Contact
+### Contact
 
-For questions or inquiries, please contact [Your Name] at [Your Email].
+For any issues or questions please reach out to Irem Aslan at iremaslan0420@hotmail.com.
