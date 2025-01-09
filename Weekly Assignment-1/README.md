@@ -85,6 +85,7 @@ int main() {
 
     return 0;
 }
+```
 
 ### 2. Calculator Application
 
@@ -99,32 +100,36 @@ Supported Operations:
     Exponentiation
     Modulus
 
-File Structure:
+#### File Structure:
 
     main.cpp: Contains logic for user interaction and input handling.
     Calculator.hpp: Header file declaring the Calculator class and its methods.
     Calculator.cpp: Implementation of the Calculator class methods.
 
-Compilation and Running:
+#### Compilation and Running:
 
-    Clone the repository:
-
+1- Clone the repository:
+```bash
 git clone <repository_url>
+```
 
-Navigate to the project directory:
-
+2- Navigate to the project directory:
+```bash
 cd calculator-app
+```
 
-Compile the program:
-
+3- Compile the program:
+```bash
 g++ -o calculator main.cpp Calculator.cpp -std=c++11
+```
 
-Run the program:
-
+4- Run the program:
+```bash
     ./calculator
+```
 
-Example Output:
-
+#### Example Output:
+```cpp
 What would you like to do (multiplication (1), addition (2), subtraction (3), division (4), square (5), exponentiation (6), modulus (7))? 2
 How many numbers do you want to add? 3
 Enter number 1: 5
@@ -133,8 +138,9 @@ Enter number 3: 4
 The total sum is: 12
 
 Would you like to perform another calculation? (y/n): y
+```
 
-3. Matrix Manipulation Library
+### 3. Matrix Manipulation Library
 
 A C++ library that performs various operations on matrices, including addition, subtraction, multiplication, inversion, and more.
 Key Features:
@@ -145,8 +151,8 @@ Key Features:
     Static methods to create special matrices (zero, identity, ones).
     Support for dot product, magnitude, and matrix printing.
 
-Example Usage:
-
+#### Example Usage:
+```cpp
 #include "matrix.h"
 
 int main() {
@@ -168,21 +174,24 @@ int main() {
 
     return 0;
 }
+```
 
-Compilation:
+#### Compilation:
 
-To compile the code, use a C++ compiler like g++:
-
+1- Use a C++ compiler like g++:
+```bash
 g++ main.cpp -o matrix_program
+```
 
-Then run the program:
-
+2-R un the program:
+```bash
 ./matrix_program
+```
 
-Dependencies
+#### Dependencies
 
-    C++11 or higher: Required for features like std::vector, exceptions, etc.
-    cmath: For mathematical operations like calculating magnitudes and square roots.
+C++11 or higher: Required for features like std::vector, exceptions, etc.
+cmath: For mathematical operations like calculating magnitudes and square roots.
 
 License
 
