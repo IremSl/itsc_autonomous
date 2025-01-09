@@ -114,7 +114,7 @@ g++ -o calculator main.cpp Calculator.cpp -std=c++11
 ```
 
 #### Example Output:
-(https://github.com/user-attachments/assets/b58df821-75c8-47c9-ad58-b54ed25750f9)
+![](https://github.com/user-attachments/assets/b58df821-75c8-47c9-ad58-b54ed25750f9)
 
 
 
@@ -132,7 +132,7 @@ A C++ library that performs various operations on matrices, including addition, 
    -Support for dot product, magnitude, and matrix printing.
 
 #### Example Output:
-(https://github.com/user-attachments/assets/40197fd1-e1cc-4499-ada8-853babc4d23d)
+![](https://github.com/user-attachments/assets/40197fd1-e1cc-4499-ada8-853babc4d23d)
 
 
 
