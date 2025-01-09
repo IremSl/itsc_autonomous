@@ -102,9 +102,9 @@ Supported Operations:
 
 #### File Structure:
 
-    main.cpp: Contains logic for user interaction and input handling.
-    Calculator.hpp: Header file declaring the Calculator class and its methods.
-    Calculator.cpp: Implementation of the Calculator class methods.
+   1. **main.cpp** - Contains logic for user interaction and input handling.
+   2. **Calculator.hpp** - Header file declaring the Calculator class and its methods.
+   3.  **Calculator.cpp** - Implementation of the Calculator class methods.
 
 #### Compilation and Running:
 
