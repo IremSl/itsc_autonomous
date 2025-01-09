@@ -101,13 +101,6 @@ The Calculator class includes the following methods:
     exponentiation(double f, double g): Returns the result of raising a number f to the power of g.
     mod(int h, int j): Returns the remainder when dividing h by j.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
-
-For any questions or suggestions, feel free to reach out at [your.email@example.com].
-
 
 ### Quick Breakdown of the README:
 
@@ -122,3 +115,6 @@ For any questions or suggestions, feel free to reach out at [your.email@example.
 
 You can simply copy and paste this `README.md` file into your project’s repository. Let me know if you need any changes!
 
+## Contact
+
+Should you encounter any issues or have questions regarding the C++ Variables project, please reach out to Irem Aslan at iremaslan0420@hotmail.com.
