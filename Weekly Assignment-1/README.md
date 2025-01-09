@@ -102,9 +102,9 @@ Supported Operations:
 
 #### File Structure:
 
-   1. **main.cpp** - Contains logic for user interaction and input handling.
-   2. **Calculator.hpp** - Header file declaring the Calculator class and its methods.
-   3.  **Calculator.cpp** - Implementation of the Calculator class methods.
+   - **main.cpp** - Contains logic for user interaction and input handling.
+   - **Calculator.hpp** - Header file declaring the Calculator class and its methods.
+   - **Calculator.cpp** - Implementation of the Calculator class methods.
 
 #### Compilation and Running:
 
@@ -143,15 +143,17 @@ Would you like to perform another calculation? (y/n): y
 ### 3. Matrix Manipulation Library
 
 A C++ library that performs various operations on matrices, including addition, subtraction, multiplication, inversion, and more.
-Key Features:
 
-    Matrix creation from default values or 2D arrays.
-    Operations like addition, subtraction, multiplication, transposition, and inversion.
-    Methods for calculating the determinant and trace of matrices.
-    Static methods to create special matrices (zero, identity, ones).
-    Support for dot product, magnitude, and matrix printing.
+#### Key Features:
+
+   - Matrix creation from default values or 2D arrays.
+   - Operations like addition, subtraction, multiplication, transposition, and inversion.
+   -Methods for calculating the determinant and trace of matrices.
+   - Static methods to create special matrices (zero, identity, ones).
+   -Support for dot product, magnitude, and matrix printing.
 
 #### Example Usage:
+
 ```cpp
 #include "matrix.h"
 
@@ -193,9 +195,7 @@ g++ main.cpp -o matrix_program
 C++11 or higher: Required for features like std::vector, exceptions, etc.
 cmath: For mathematical operations like calculating magnitudes and square roots.
 
-License
 
-[Insert your license here]
 Contact
 
 For questions or inquiries, please contact [Your Name] at [Your Email].
