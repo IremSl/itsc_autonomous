@@ -68,7 +68,7 @@ This project implements a 3D point system, where each point is represented by `x
 
 #### Example Output:
 
-!(![1 foto point](https://github.com/user-attachments/assets/50fe26f5-8b36-48b0-b867-db0a182fe049)
+!(!(https://github.com/user-attachments/assets/50fe26f5-8b36-48b0-b867-db0a182fe049)
 )
 
 
