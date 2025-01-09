@@ -1,4 +1,4 @@
-# C++ Projects: Point Structure, Calculator, and Matrix Manipulation
+# C++ Projects: Point Structure, Calculator, and Matrix 
 
 This repository contains three C++ projects:
 
@@ -86,7 +86,7 @@ int main() {
     return 0;
 }
 
-2. Calculator Application
+### 2. Calculator Application
 
 A simple command-line calculator implemented in C++ for performing basic arithmetic operations and advanced functions like exponentiation and modulus.
 Supported Operations:
