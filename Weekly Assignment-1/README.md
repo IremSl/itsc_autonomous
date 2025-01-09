@@ -92,13 +92,13 @@ int main() {
 A simple command-line calculator implemented in C++ for performing basic arithmetic operations and advanced functions like exponentiation and modulus.
 Supported Operations:
 
-    Multiplication
-    Addition
-    Subtraction
-    Division
-    Square
-    Exponentiation
-    Modulus
+   - **Multiplication**
+   - **Addition**
+   - **Subtraction**
+   - **Division**
+   - **Square**
+   - **Exponentiation**
+    -**Modulus**
 
 #### File Structure:
 
