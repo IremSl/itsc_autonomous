@@ -84,10 +84,12 @@ Would you like to perform another calculation? (y/n): y
 What would you like to do (multiplication (1), addition (2), subtraction (3), division (4), square (5), exponentiation (6), modulus (7))? 4
 Enter first number: 10
 Enter second number: 2
-The division of 10/2 is 5
+The division of 10 / 2 is 5
 
 Would you like to perform another calculation? (y/n): n
+
 Have a nice day!
+
 
 ## Calculator Class Overview
 
