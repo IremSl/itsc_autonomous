@@ -96,7 +96,7 @@ Are p1 and p2 in the same region? Yes
 
 
 
-# Calculator Application
+## Calculator Application
 
 This is a simple command-line calculator application implemented in C++. The calculator provides functionality for performing basic arithmetic operations and more advanced mathematical functions, such as exponentiation and modulus. The operations include:
 
