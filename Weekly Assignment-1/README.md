@@ -66,26 +66,11 @@ This project implements a 3D point system, where each point is represented by `x
 - Eighth Region: `x > 0`, `y < 0`, `z < 0`
 - Origin: `x == 0`, `y == 0`, `z == 0`
 
-#### Example Usage:
+#### Example Output:
 
-```cpp
-#include <iostream>
+!(![1 foto point](https://github.com/user-attachments/assets/50fe26f5-8b36-48b0-b867-db0a182fe049)
+)
 
-int main() {
-    Point p1(3, 4, 5);
-    Point p2(5, 12, 13);
-
-    std::cout << "Distance of p1 from origin: " << p1.zero_distance() << std::endl;
-    std::cout << "Distance between p1 and p2: " << Point::distance(p1, p2) << std::endl;
-    Point further = Point::compare(p1, p2);
-    std::cout << "Point further from origin: (" << further.x << ", " << further.y << ", " << further.z << ")" << std::endl;
-
-    std::cout << "Region of p1: " << Point::region_to_string(p1.region()) << std::endl;
-    std::cout << "Are p1 and p2 in the same region? " << (Point::is_in_same_region(p1, p2) ? "Yes" : "No") << std::endl;
-
-    return 0;
-}
-```
 
 ### 2. Calculator Application
 
@@ -129,8 +114,10 @@ g++ -o calculator main.cpp Calculator.cpp -std=c++11
 ```
 
 #### Example Output:
-![Alt text](![1 foto point](https://github.com/user-attachments/assets/05bd5878-0a61-44a0-a99c-28319bc88894)
+!(![2foto calculator](https://github.com/user-attachments/assets/b58df821-75c8-47c9-ad58-b54ed25750f9)
 )
+
+
 
 ### 3. Matrix Manipulation Library
 
@@ -144,31 +131,10 @@ A C++ library that performs various operations on matrices, including addition, 
    - Static methods to create special matrices (zero, identity, ones).
    -Support for dot product, magnitude, and matrix printing.
 
-#### Example Usage:
+#### Example Output:
+!(![Screenshot from 2025-01-09 21-36-58](https://github.com/user-attachments/assets/40197fd1-e1cc-4499-ada8-853babc4d23d)
+)
 
-```cpp
-#include "matrix.h"
-
-int main() {
-    Matrix m1(3, 3);  // Create a 3x3 zero matrix
-    m1.print();
-
-    std::vector<std::vector<float>> mat_data = {{1, 2, 3}, {5, 5, 6}, {4, 8, 9}};
-    Matrix m2(mat_data);
-    m2.print();
-
-    Matrix m3 = m2.transpose();
-    m3.print();
-
-    std::cout << "Trace: " << m2.trace() << std::endl;
-    std::cout << "Determinant: " << m2.determinant() << std::endl;
-
-    Matrix m4 = m2.add(m1);
-    m4.print();
-
-    return 0;
-}
-```
 
 #### Compilation:
 
