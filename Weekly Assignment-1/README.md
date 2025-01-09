@@ -1,3 +1,101 @@
+# Overview
+This folder includes 3 projects: Point Structure, Calculator Class Implementation, Matrix Class Implementation.
+
+# Requirements
+
+- CMake (version 3.10 or higher) 
+- C++ compiler (GCC, Clang, or MSVC)
+
+# Installation and Setup
+
+   1- Clone the repository to your local machine.
+   2- Ensure a C++ compiler is installed on your system.
+   3- Create the build directory and navigate into it.
+   4- Configure the project with CMake
+   5- Build the project
+
+## Point Structure
+
+This project involves a 3D point system where each point is represented by its `x`, `y`, and `z` coordinates. The program provides various functionalities such as calculating the distance of a point from the origin, comparing points based on their distance from the origin, checking whether two points are in the same region, and identifying the region a point belongs to in a 3D coordinate space.
+
+### Features
+
+- **Point Class**: Represents a point in a 3D space with `x`, `y`, and `z` coordinates.
+- **Zero Distance**: Calculates the distance of the point from the origin `(0, 0, 0)`.
+- **Distance Between Points**: Calculates the Euclidean distance between two points.
+- **Comparison**: Compares two points and returns the one further from the origin.
+- **Region Classification**: Classifies a point into one of the 8 regions based on its `x`, `y`, and `z` coordinates.
+- **Region Comparison**: Checks if two points lie in the same region.
+- **Region Naming**: Converts a region enum value to a human-readable string.
+
+### Regions in 3D Space
+
+The 3D space is divided into 8 regions (or octants) based on the signs of `x`, `y`, and `z`. These regions are as follows:
+
+1. **First Region**: `x > 0`, `y > 0`, `z > 0`
+2. **Second Region**: `x < 0`, `y > 0`, `z > 0`
+3. **Third Region**: `x < 0`, `y < 0`, `z > 0`
+4. **Fourth Region**: `x > 0`, `y < 0`, `z > 0`
+5. **Fifth Region**: `x > 0`, `y > 0`, `z < 0`
+6. **Sixth Region**: `x < 0`, `y > 0`, `z < 0`
+7. **Seventh Region**: `x < 0`, `y < 0`, `z < 0`
+8. **Eighth Region**: `x > 0`, `y < 0`, `z < 0`
+9. **Origin**: `x == 0`, `y == 0`, `z == 0`
+
+### How It Works
+
+1. The program defines a `Point` structure with `x`, `y`, and `z` attributes.
+2. It uses basic Euclidean geometry to calculate distances.
+3. The program checks the region of each point based on its coordinate signs (`x`, `y`, `z`).
+4. Points are compared based on their distance from the origin.
+5. It checks if two points are in the same region.
+
+### Usage
+
+#### Example:
+
+The following code demonstrates how to use the `Point` class and its functionalities:
+
+```cpp
+#include <iostream>
+
+int main() {
+    Point p1(3, 4, 5);
+    Point p2(5, 12, 13);
+    Point p3(1, 1, 1);
+    Point p4(0, 0, 0);
+
+    // Distance from the origin
+    std::cout << "Distance of p1 from origin: " << p1.zero_distance() << std::endl;
+    
+    // Distance between two points
+    std::cout << "Distance between p1 and p2: " << Point::distance(p1, p2) << std::endl;
+
+    // Comparison: which point is further from the origin
+    Point further = Point::compare(p1, p2);
+    std::cout << "Point further from origin: (" << further.x << ", " << further.y << ", " << further.z << ")" << std::endl;
+
+    // Region of the points
+    std::cout << "Region of p1: " << Point::region_to_string(p1.region()) << std::endl;
+    std::cout << "Region of p2: " << Point::region_to_string(p2.region()) << std::endl;
+
+    // Checking if points are in the same region
+    std::cout << "Are p1 and p2 in the same region? " << (Point::is_in_same_region(p1, p2) ? "Yes" : "No") << std::endl;
+
+    return 0;
+}
+
+Output:
+
+Distance of p1 from origin: 7.07107
+Distance between p1 and p2: 8.24621
+Point further from origin: (5, 12, 13)
+Region of p1: First
+Region of p2: First
+Are p1 and p2 in the same region? Yes
+
+
+
 # Calculator Application
 
 This is a simple command-line calculator application implemented in C++. The calculator provides functionality for performing basic arithmetic operations and more advanced mathematical functions, such as exponentiation and modulus. The operations include:
@@ -102,6 +200,14 @@ The Calculator class includes the following methods:
     square(double e): Returns the square of a number.
     exponentiation(double f, double g): Returns the result of raising a number f to the power of g.
     mod(int h, int j): Returns the remainder when dividing h by j.
+
+
+
+
+
+
+
+
 
 
 # Matrix Manipulation Library
