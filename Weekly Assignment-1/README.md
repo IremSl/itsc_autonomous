@@ -68,8 +68,8 @@ This project implements a 3D point system, where each point is represented by `x
 
 #### Example Output:
 
-!(!(https://github.com/user-attachments/assets/50fe26f5-8b36-48b0-b867-db0a182fe049)
-)
+(https://github.com/user-attachments/assets/50fe26f5-8b36-48b0-b867-db0a182fe049)
+
 
 
 ### 2. Calculator Application
@@ -114,8 +114,8 @@ g++ -o calculator main.cpp Calculator.cpp -std=c++11
 ```
 
 #### Example Output:
-!(![2foto calculator](https://github.com/user-attachments/assets/b58df821-75c8-47c9-ad58-b54ed25750f9)
-)
+(https://github.com/user-attachments/assets/b58df821-75c8-47c9-ad58-b54ed25750f9)
+
 
 
 
@@ -132,8 +132,8 @@ A C++ library that performs various operations on matrices, including addition, 
    -Support for dot product, magnitude, and matrix printing.
 
 #### Example Output:
-!(![Screenshot from 2025-01-09 21-36-58](https://github.com/user-attachments/assets/40197fd1-e1cc-4499-ada8-853babc4d23d)
-)
+(https://github.com/user-attachments/assets/40197fd1-e1cc-4499-ada8-853babc4d23d)
+
 
 
 #### Compilation:
