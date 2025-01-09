@@ -129,16 +129,8 @@ g++ -o calculator main.cpp Calculator.cpp -std=c++11
 ```
 
 #### Example Output:
-```cpp
-What would you like to do (multiplication (1), addition (2), subtraction (3), division (4), square (5), exponentiation (6), modulus (7))? 2
-How many numbers do you want to add? 3
-Enter number 1: 5
-Enter number 2: 3
-Enter number 3: 4
-The total sum is: 12
-
-Would you like to perform another calculation? (y/n): y
-```
+![Alt text](![1 foto point](https://github.com/user-attachments/assets/05bd5878-0a61-44a0-a99c-28319bc88894)
+)
 
 ### 3. Matrix Manipulation Library
 
