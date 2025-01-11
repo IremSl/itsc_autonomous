@@ -85,21 +85,21 @@ This document provides an in-depth explanation of pointers in C++, including bas
 
 Table of Contents
 
-1 - **Pointers**
-2-  **Garbage Collection Mechanism**
-3-  **Smart Pointers**
+ - **Pointers**
+-  **Garbage Collection Mechanism**
+-  **Smart Pointers**
         -**Void Pointer**
         -**Nullptr**
         -**Auto Pointer**
         -**Unique Pointer**
         -**Shared Pointer**
         -**Weak Pointer**
-4- **Applications of Smart Pointers**
-5- **Raw Pointers**
-6- **Wild Pointers**
-7- **Data Inconsistency**)
-8- **Buffer Overflow**
-9- **Ownership Models**
+- **Applications of Smart Pointers**
+- **Raw Pointers**
+- **Wild Pointers**
+- **Data Inconsistency**)
+- **Buffer Overflow**
+- **Ownership Models**
         -**std::unique_ptr**
         -**std::shared_ptr**
         -**std::weak_ptr**
