@@ -10,7 +10,6 @@ This repository contains three C++ projects:
 
 ## Requirements
 
-- **CMake**: Version 3.10 or higher
 - **C++ Compiler**: GCC, Clang, or MSVC
 
 ---
@@ -18,25 +17,16 @@ This repository contains three C++ projects:
 ## Installation and Setup
 
 1. Clone the repository to your local machine:
+2. 
     ```bash
     git clone <repository_url>
     ```
    
-2. Ensure that a C++ compiler is installed (e.g., GCC, Clang, MSVC).
+3. Ensure that a C++ compiler is installed (e.g., GCC, Clang, MSVC).
 
-3. Create and navigate to the build directory:
+4. Create and navigate to the build directory:
     ```bash
     mkdir build && cd build
-    ```
-
-4. Configure the project using CMake:
-    ```bash
-    cmake ..
-    ```
-
-5. Build the project:
-    ```bash
-    cmake --build .
     ```
 
 ---
