@@ -281,34 +281,35 @@ strcpy(buffer, "This is too long!"); // This causes a buffer overflow
 ## Ownership Models
 
 C++ provides different models for managing the ownership of dynamically allocated memory. These models help prevent common memory management issues such as memory leaks and dangling pointers.
+
 -**std::unique_ptr**
 
-**Ownership model**: Exclusive ownership. Only one std::unique_ptr can own a given resource. Ownership can be transferred using std::move().
-**When to Use**:
+  **Ownership model**: Exclusive ownership. Only one std::unique_ptr can own a given resource. Ownership can be transferred using std::move().
+  **When to Use**:
 
     Use when you need exclusive ownership and automatic memory management for a resource.
-```cpp
-std::unique_ptr<int> ptr(new int(10)); // Ownership is exclusive
-```
+  ```cpp
+  std::unique_ptr<int> ptr(new int(10)); // Ownership is exclusive
+  ```
 
 -**std::shared_ptr**
 
 
-**Ownership model**: Shared ownership. Multiple std::shared_ptr objects can share ownership of the same resource. The resource is deleted when the last shared_ptr goes out of scope.
-**When to Use**:
+  **Ownership model**: Shared ownership. Multiple std::shared_ptr objects can share ownership of the same resource. The resource is deleted when the last shared_ptr goes out of scope.
+  **When to Use**:
 
     Use when multiple parts of your program need access to a resource, and the resource should only be deleted when all owners are done with it.
-```cpp
-std::shared_ptr<int> ptr1 = std::make_shared<int>(10);
-std::shared_ptr<int> ptr2 = ptr1; // Both ptr1 and ptr2 share ownership
-```
+  ```cpp
+  std::shared_ptr<int> ptr1 = std::make_shared<int>(10);
+  std::shared_ptr<int> ptr2 = ptr1; // Both ptr1 and ptr2 share ownership
+  ```
 
 -**std::weak_ptr**
 
-**Ownership model**: Non-owning reference. A std::weak_ptr observes an object managed by a std::shared_ptr without affecting the reference count.
-**When to Use**:
+  **Ownership model**: Non-owning reference. A std::weak_ptr observes an object managed by a std::shared_ptr without affecting the reference count.
+  **When to Use**:
 
     Use to avoid circular references or to observe an object without preventing its deletion.
-```cpp
-std::weak_ptr<int> weak_ptr = ptr1; // weak_ptr does not affect reference count
-```
+  ```cpp
+  std::weak_ptr<int> weak_ptr = ptr1; // weak_ptr does not affect reference count
+  ```
