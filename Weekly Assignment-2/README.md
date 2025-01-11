@@ -88,12 +88,12 @@ This document provides an in-depth explanation of pointers in C++, including bas
  - **Pointers**
 -  **Garbage Collection Mechanism**
 -  **Smart Pointers**
-        -****Void Pointer****
-        -****Nullptr****
-        -****Auto Pointer****
-        -*****Unique Pointer****
-        -****Shared Pointer****
-        -****Weak Pointer****
+        ****Void Pointer****
+        ****Nullptr****
+        ****Auto Pointer****
+        *****Unique Pointer****
+        ****Shared Pointer****
+        ****Weak Pointer****
 - **Applications of Smart Pointers**
 - **Raw Pointers**
 - **Wild Pointers**
