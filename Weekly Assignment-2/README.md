@@ -8,7 +8,6 @@ This repository contains C++ code examples and explanations for various topics r
 - **Auto Keyword**: Demonstrating the usage of the `auto` keyword for type inference.
 - **Const and Constexpr Keywords**: Explaining how `const` and `constexpr` are used to define constant variables and optimize compile-time computation.
 - **Fixed-Width Types**: Using fixed-width types like `int32_t` and `uint64_t` for guaranteed bit-width integers and floating-point types.
-- 
 ---
 
 ### Project Structure
