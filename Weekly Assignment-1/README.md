@@ -70,7 +70,7 @@ This project implements a 3D point system, where each point is represented by `x
 
 ![](https://github.com/user-attachments/assets/50fe26f5-8b36-48b0-b867-db0a182fe049)
 
-
+---
 
 ### 2. Calculator Application
 
@@ -116,8 +116,7 @@ g++ -o calculator main.cpp Calculator.cpp -std=c++11
 #### Example Output:
 ![](https://github.com/user-attachments/assets/b58df821-75c8-47c9-ad58-b54ed25750f9)
 
-
-
+---
 
 ### 3. Matrix Manipulation Library
 
@@ -153,6 +152,7 @@ g++ main.cpp -o matrix_program
 C++11 or higher: Required for features like std::vector, exceptions, etc.
 cmath: For mathematical operations like calculating magnitudes and square roots.
 
+---
 
 ### Contact
 
