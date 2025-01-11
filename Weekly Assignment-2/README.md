@@ -62,7 +62,7 @@ Examples include:
 
   -  **Constant variables and pointers.**
   -  **Constant expressions evaluated at compile-time for better performance.**
-  -  
+    
 ```bash
 const int x = 15;
 constexpr int max_size = 100;
