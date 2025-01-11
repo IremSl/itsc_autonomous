@@ -21,9 +21,11 @@ This project includes:
 
 This section demonstrates how to find the size of pointers for various data types in C++.
 
+```bash
 long double g = 10;
 long double* pointerlongDouble = &g;
 cout << "Pointer long double --> " << sizeof(pointerlongDouble) << endl;
+```
 
 #### Numeric Limits
 
