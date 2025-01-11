@@ -79,9 +79,13 @@ int32_t a = 100;   // 32-bit signed integer
 uint64_t b = 1000; // 64-bit unsigned integer
 ```
 ---
+
 # C++ POINTERS
+
 ---
-This document provides an in-depth explanation of pointers in C++, including basic pointer usage, garbage collection, smart pointers, raw pointers, wild pointers, data inconnsistency, buffer overflow, and ownership models. It covers topics such as null pointers, void pointers, unique pointers, shared pointers, weak pointers, and the differences between them, alongside examples.
+This document provides an in-depth explanation of pointers in C++, including basic pointer usage, garbage collection, and smart pointers. It covers topics such as null pointers, void pointers, unique pointers, shared pointers, weak pointers, and the differences between them, alongside examples. The content provided  also covers various C++ pointer concepts, including raw pointers, wild pointers, data inconsistency, buffer overflow, and ownership models such as std::unique_ptr, std::shared_ptr, and std::weak_ptr.
+
+---
 
 ## Table of Contents
 
@@ -130,6 +134,8 @@ std::cout << *ptr;  // Prints the value of 'a'
 ## Garbage Collection Mechanism
 
 Garbage collection is an automatic memory management technique where memory occupied by variables or objects no longer in use is collected and freed. C++ does not have built-in garbage collection, but it supports manual memory management. C++ also provides smart pointers to manage memory efficiently.
+
+---
 
 ## Smart Pointers
 
@@ -208,7 +214,8 @@ std::weak_ptr<A> weakPtr = p1;
 
  **Preventing Circular References**: weak_ptr helps avoid memory leaks caused by cyclic dependencies between shared_ptr objects.
  **Efficient Resource Management**: Smart pointers automate memory management, making it safer and easier to manage dynamically allocated memory.
-
+ 
+---
     
 ## Raw Pointers
 
@@ -235,6 +242,7 @@ int* ptr = new int(10);
 delete ptr;
 std::cout << *ptr; // Accessing deleted memory (dangling pointer)
 ```
+---
 ## Wild Pointers
 
 A wild pointer refers to a pointer that points to an invalid or uninitialized memory location. It can result in undefined behavior and serious bugs such as crashes or memory corruption.
@@ -251,6 +259,8 @@ int main() {
 }
 ```
 
+---
+
 ## Data Inconsistency
 
 Data inconsistency occurs when data across multiple locations or systems doesn't align. This can result from mismatched data, outdated versions, duplication, or lack of synchronization.
@@ -264,6 +274,8 @@ Data inconsistency occurs when data across multiple locations or systems doesn't
   **Lack of Synchronization**: Distributed systems can experience inconsistency if data isn't properly synchronized.
   
   **Concurrency Problems**: Multi-user systems may experience inconsistency when multiple users update the same data simultaneously.
+  
+---
 
 ## Buffer Overflow
 
@@ -278,6 +290,8 @@ A buffer overflow occurs when more data is written to a buffer than it can hold.
 char buffer[10];
 strcpy(buffer, "This is too long!"); // This causes a buffer overflow
 ```
+---
+
 ## Ownership Models
 
 C++ provides different models for managing the ownership of dynamically allocated memory. These models help prevent common memory management issues such as memory leaks and dangling pointers.
