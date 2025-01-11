@@ -89,26 +89,24 @@ This document provides an in-depth explanation of pointers in C++, including bas
 
 ## Table of Contents
 
-- **Pointers**
-- **Garbage Collection Mechanism**
-- **Smart Pointers**
-  - **Void Pointer**
-  - **Nullptr**
-  - **Auto Pointer**
-  - **Unique Pointer**
-  - **Shared Pointer**
-  - **Weak Pointer**
-- **Applications of Smart Pointers**
-- [Raw Pointers](#raw-pointers)
-- [Wild Pointers](#wild-pointers)
-- [Data Inconsistency](#data-inconsistency)
-- [Buffer Overflow](#buffer-overflow)
-- [Ownership Models](#ownership-models)
+- [**Pointers**](#pointers)
+- [**Garbage Collection Mechanism**](#garbage-collection-mechanism)
+- [**Smart Pointers**](#smart-pointers)
+  - [Void Pointer](#void-pointer)
+  - [Nullptr](#nullptr)
+  - [Auto Pointer](#auto-pointer)
+  - [Unique Pointer](#unique-pointer)
+  - [Shared Pointer](#shared-pointer)
+  - [Weak Pointer](#weak-pointer)
+- [**Applications of Smart Pointers**](#applications-of-smart-pointers)
+- [**Raw Pointers**](#raw-pointers)
+- [**Wild Pointers**](#wild-pointers)
+- [**Data Inconsistency**](#data-inconsistency)
+- [**Buffer Overflow**](#buffer-overflow)
+- [**Ownership Models**](#ownership-models)
   - [std::unique_ptr](#stdunique_ptr)
   - [std::shared_ptr](#stdshared_ptr)
   - [std::weak_ptr](#stdweak_ptr)
-
----
 
  ## 1- Pointers
 
