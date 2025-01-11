@@ -1,16 +1,16 @@
 # C++ VARIABLES
+
 ---
-
-## C++ Fundamentals: Variable Types and Keywords
-
-This repository contains C++ code examples and explanations related to various topics of C++ programming, including variable types, pointers, limits, and modern C++ keywords such as `auto`, `const`, and `constexpr`. The code snippets in this repository cover:
+This repository contains C++ code examples and explanations for various topics related to variables, pointers, and modern C++ keywords. The topics include variable sizes, pointer sizes, numeric limits, and the use of `auto`, `const`, and `constexpr` keywords.The code snippets in this repository cover:
 
 - **Pointer Sizes**: Understanding the size of pointers for different types.
 - **Numeric Limits**: Exploring the lower and upper bounds of various numeric types.
 - **Auto Keyword**: Demonstrating the usage of the `auto` keyword for type inference.
 - **Const and Constexpr Keywords**: Explaining how `const` and `constexpr` are used to define constant variables and optimize compile-time computation.
 - **Fixed-Width Types**: Using fixed-width types like `int32_t` and `uint64_t` for guaranteed bit-width integers and floating-point types.
+- 
 ---
+
 ### Project Structure
 
 This project includes:
@@ -18,8 +18,50 @@ This project includes:
 - **Code Examples**: The LaTeX document provides annotated C++ code snippets to demonstrate different topics.
 - **Figures**: Visuals are included to help better understand concepts such as pointer sizes and numeric limits.
 ---
+
+## Table of Contents
+
+1. [Sizes of Variables](#c-variables)
+2. [Sizes of Pointers](#sizes-of-pointers)
+3. [Numeric Limits](#numeric-limits)
+4. [Auto Keyword](#auto-keyword)
+5. [Const and Constexpr Keywords](#const-and-constexpr-keywords)
+   
 ### Key Concepts Covered
 
+#### Sizes of Variables
+
+In this section, various data types are used to demonstrate their respective sizes in bytes.
+
+```cpp
+#include <iostream>
+#include <limits>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    cout << setw(10) << left << "======================";
+    cout << setw(10) << right << "======================" << endl;
+    cout << setw(10) << left << "Type";
+    cout << setw(2) << right << " ";
+    cout << setw(14) << right << "Size" << endl;
+    cout << setw(10) << left << "======================";
+    cout << setw(10) << right << "======================" << endl;
+
+    cout << setw(10) << left << "int";
+    cout << setw(2) << right << " ";
+    cout << setw(12) << right << sizeof(int) << endl;
+    cout << setw(10) << left << "short int";
+    cout << setw(2) << right << " ";
+    cout << setw(12) << right << sizeof(short int) << endl;
+    // Additional size demonstrations...
+}
+
+```
+(![sizes](https://github.com/user-attachments/assets/fe93dadc-a182-4ea4-8968-5bffb8c853b1)
+
+
+---
 #### Pointer Sizes
 
 This section demonstrates how to find the size of pointers for various data types in C++.
@@ -30,6 +72,7 @@ long double* pointerlongDouble = &g;
 cout << "Pointer long double --> " << sizeof(pointerlongDouble) << endl;
 ```
 
+---
 #### Numeric Limits
 
 This section covers the numeric_limits template from the <limits> header, which provides the minimum and maximum values for different types such as int, float, double, and more.
@@ -46,7 +89,7 @@ int main() {
     // Additional limits for other types
 }
 ```
-
+---
 #### Auto Keyword
 
 In this section, the auto keyword is explained, showing how it allows the compiler to deduce the type of a variable automatically.
@@ -55,7 +98,7 @@ In this section, the auto keyword is explained, showing how it allows the compil
 auto a = 10;    // 'a' is deduced to be of type 'int'
 auto b = 10.5;  // 'b' is deduced to be of type 'double'
 ```
-
+---
 #### Const and Constexpr Keywords
 
 This section explains the use of the const and constexpr keywords. const ensures that a variable's value cannot be modified, while constexpr forces evaluation at compile-time.
@@ -69,7 +112,7 @@ Examples include:
 const int x = 15;
 constexpr int max_size = 100;
 ```
-
+---
 #### Fixed-Width Types
 
 C++ offers fixed-width types such as int32_t and uint64_t for guaranteed bit-width integers. This section covers their usage.
@@ -78,6 +121,8 @@ C++ offers fixed-width types such as int32_t and uint64_t for guaranteed bit-wid
 int32_t a = 100;   // 32-bit signed integer
 uint64_t b = 1000; // 64-bit unsigned integer
 ```
+
+---
 ---
 
 # C++ POINTERS
