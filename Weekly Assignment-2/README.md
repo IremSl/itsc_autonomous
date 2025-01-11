@@ -24,7 +24,7 @@ This project includes:
 
 This section demonstrates how to find the size of pointers for various data types in C++.
 
-```bash
+```cpp
 long double g = 10;
 long double* pointerlongDouble = &g;
 cout << "Pointer long double --> " << sizeof(pointerlongDouble) << endl;
@@ -34,7 +34,7 @@ cout << "Pointer long double --> " << sizeof(pointerlongDouble) << endl;
 
 This section covers the numeric_limits template from the <limits> header, which provides the minimum and maximum values for different types such as int, float, double, and more.
 
-```bash
+```cpp
 #include <iostream>
 #include <limits>
 
@@ -51,7 +51,7 @@ int main() {
 
 In this section, the auto keyword is explained, showing how it allows the compiler to deduce the type of a variable automatically.
 
-```bash
+```cpp
 auto a = 10;    // 'a' is deduced to be of type 'int'
 auto b = 10.5;  // 'b' is deduced to be of type 'double'
 ```
@@ -65,7 +65,7 @@ Examples include:
   -  **Constant variables and pointers.**
   -  **Constant expressions evaluated at compile-time for better performance.**
     
-```bash
+```cpp
 const int x = 15;
 constexpr int max_size = 100;
 ```
@@ -74,30 +74,30 @@ constexpr int max_size = 100;
 
 C++ offers fixed-width types such as int32_t and uint64_t for guaranteed bit-width integers. This section covers their usage.
 
-```bash
+```cpp
 int32_t a = 100;   // 32-bit signed integer
 uint64_t b = 1000; // 64-bit unsigned integer
 ```
 ---
 # C++ POINTERS
 
-This document provides an in-depth explanation of pointers in C++, including basic pointer usage, garbage collection, and smart pointers. It covers topics such as null pointers, void pointers, unique pointers, shared pointers, weak pointers, and the differences between them, alongside examples.
+This document provides an in-depth explanation of pointers in C++, including basic pointer usage, garbage collection, smart pointers, raw pointers, wild pointers, data inconnsistency, buffer overflow, and ownership models. It covers topics such as null pointers, void pointers, unique pointers, shared pointers, weak pointers, and the differences between them, alongside examples.
 
-Table of Contents
+## Table of Contents
 
  - **Pointers**
 -  **Garbage Collection Mechanism**
 -  **Smart Pointers**
-        -**Void Pointer**
-        -**Nullptr**
-        -**Auto Pointer**
-        -**Unique Pointer**
-        -**Shared Pointer**
-        -**Weak Pointer**
+        --**Void Pointer**
+        --**Nullptr**
+        --**Auto Pointer**
+        --**Unique Pointer**
+        --**Shared Pointer**
+        --**Weak Pointer**
 - **Applications of Smart Pointers**
 - **Raw Pointers**
 - **Wild Pointers**
-- **Data Inconsistency**)
+- **Data Inconsistency**
 - **Buffer Overflow**
 - **Ownership Models**
         -**std::unique_ptr**
