@@ -93,25 +93,19 @@ Supported Operations:
 
 #### Compilation and Running:
 
-1- Clone the repository:
-```bash
-git clone <repository_url>
-```
 
-2- Navigate to the project directory:
-```bash
-cd calculator-app
-```
+1- Use a C++ compiler like g++:
 
-3- Compile the program:
 ```bash
 g++ -o calculator main.cpp Calculator.cpp -std=c++11
 ```
 
-4- Run the program:
+2- Run the program:
 ```bash
-    ./calculator
+ ./calculator
+
 ```
+
 
 #### Example Output:
 ![](https://github.com/user-attachments/assets/b58df821-75c8-47c9-ad58-b54ed25750f9)
