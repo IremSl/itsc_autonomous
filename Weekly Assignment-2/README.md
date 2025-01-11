@@ -1,4 +1,5 @@
-# C++ Fundamentals: Variable Types and Keywords
+# C++ PROJECTS2
+## C++ Fundamentals: Variable Types and Keywords
 
 This repository contains C++ code examples and explanations related to various topics of C++ programming, including variable types, pointers, limits, and modern C++ keywords such as `auto`, `const`, and `constexpr`. The code snippets in this repository cover:
 
@@ -31,6 +32,7 @@ cout << "Pointer long double --> " << sizeof(pointerlongDouble) << endl;
 
 This section covers the numeric_limits template from the <limits> header, which provides the minimum and maximum values for different types such as int, float, double, and more.
 
+```bash
 #include <iostream>
 #include <limits>
 
@@ -41,13 +43,16 @@ int main() {
     cout << "Upper limit of int: " << numeric_limits<int>::max() << endl;
     // Additional limits for other types
 }
+```
 
 #### Auto Keyword
 
 In this section, the auto keyword is explained, showing how it allows the compiler to deduce the type of a variable automatically.
 
+```bash
 auto a = 10;    // 'a' is deduced to be of type 'int'
 auto b = 10.5;  // 'b' is deduced to be of type 'double'
+```
 
 #### Const and Constexpr Keywords
 
@@ -55,15 +60,19 @@ This section explains the use of the const and constexpr keywords. const ensures
 
 Examples include:
 
-    Constant variables and pointers.
-    Constant expressions evaluated at compile-time for better performance.
-
+  -  **Constant variables and pointers.**
+  -  **Constant expressions evaluated at compile-time for better performance.**
+  -  
+```bash
 const int x = 15;
 constexpr int max_size = 100;
+```
 
 #### Fixed-Width Types
 
 C++ offers fixed-width types such as int32_t and uint64_t for guaranteed bit-width integers. This section covers their usage.
 
+```bash
 int32_t a = 100;   // 32-bit signed integer
 uint64_t b = 1000; // 64-bit unsigned integer
+```
