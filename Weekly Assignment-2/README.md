@@ -3,7 +3,8 @@
 ---
 This repository contains C++ code examples and explanations for various topics related to variables, pointers, and modern C++ keywords. The topics include variable sizes, pointer sizes, numeric limits, and the use of `auto`, `const`, and `constexpr` keywords.The code snippets in this repository cover:
 
-- **Pointer Sizes**: Understanding the size of pointers for different types.
+- **Sizes of Variables**:Understanding the size of variables for different types.
+- **Sizes of Pointers**: Understanding the size of pointers for different types.
 - **Numeric Limits**: Exploring the lower and upper bounds of various numeric types.
 - **Auto Keyword**: Demonstrating the usage of the `auto` keyword for type inference.
 - **Const and Constexpr Keywords**: Explaining how `const` and `constexpr` are used to define constant variables and optimize compile-time computation.
@@ -25,7 +26,7 @@ This project includes:
 3. [Numeric Limits](#numeric-limits)
 4. [Auto Keyword](#auto-keyword)
 5. [Const and Constexpr Keywords](#const-and-constexpr-keywords)
-   
+6. [Fixed-Width Types](#fixed-width-types)  
 ### Key Concepts Covered
 
 #### Sizes of Variables
