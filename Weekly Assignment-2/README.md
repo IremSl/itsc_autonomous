@@ -91,7 +91,7 @@ This document provides an in-depth explanation of pointers in C++, including bas
         ****Void Pointer****
         ****Nullptr****
         ****Auto Pointer****
-        *****Unique Pointer****
+        ****Unique Pointer****
         ****Shared Pointer****
         ****Weak Pointer****
 - **Applications of Smart Pointers**
