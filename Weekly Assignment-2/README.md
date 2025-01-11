@@ -134,12 +134,12 @@ uint64_t b = 1000; // 64-bit unsigned integer
 This repository explores various concepts related to Pointers and memory management in C++, including the mechanisms of garbage collection, smart pointers, raw pointers, and common memory management pitfalls. It covers key topics such as:
 
    - **The fundamentals of Pointers, including their types and usage.**
-    - **An overview of Garbage Collection Mechanism and its relevance in C++.**
+   - **An overview of Garbage Collection Mechanism and its relevance in C++.**
    - **A detailed guide to Smart Pointers and their various forms:**
         - **Void Pointer, Null Pointer Auto Pointer, Unique Pointer, Shared Pointer, and Weak Pointer.**
-    - **Applications of Smart Pointers in modern C++ programming.**
-    - **Challenges such as Raw Pointers, Wild Pointers, Data Inconsistency, and Buffer Overflow.**
-    - **Understanding Ownership Models in C++ with `std::unique_ptr`, `std::shared_ptr`, and `std::weak_ptr`.**
+   - **Applications of Smart Pointers in modern C++ programming.**
+   - **Challenges such as Raw Pointers, Wild Pointers, Data Inconsistency, and Buffer Overflow.**
+   - **Understanding Ownership Models in C++ with `std::unique_ptr`, `std::shared_ptr`, and `std::weak_ptr`.**
 
 This guide aims to provide a comprehensive understanding of memory management techniques in C++, ensuring better management of resources, safer code, and improved application performance.
 
