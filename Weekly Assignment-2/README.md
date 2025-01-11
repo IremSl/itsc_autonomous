@@ -331,3 +331,6 @@ C++ provides different models for managing the ownership of dynamically allocate
   ```cpp
   std::weak_ptr<int> weak_ptr = ptr1; // weak_ptr does not affect reference count
   ```
+---
+## CONCLUSION
+## CONTACT
