@@ -62,7 +62,7 @@ int main() {
 
 
 ---
-#### Pointer Sizes
+#### Sizes of Pointers
 
 This section demonstrates how to find the size of pointers for various data types in C++.
 
