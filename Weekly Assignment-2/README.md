@@ -58,7 +58,7 @@ int main() {
 }
 
 ```
-(![sizes](https://github.com/user-attachments/assets/fe93dadc-a182-4ea4-8968-5bffb8c853b1)
+![](https://github.com/user-attachments/assets/fe93dadc-a182-4ea4-8968-5bffb8c853b1)
 
 
 ---
@@ -71,6 +71,7 @@ long double g = 10;
 long double* pointerlongDouble = &g;
 cout << "Pointer long double --> " << sizeof(pointerlongDouble) << endl;
 ```
+![](https://github.com/user-attachments/assets/88479061-23a2-41cd-bda9-74fb0824100e)
 
 ---
 #### Numeric Limits
@@ -89,6 +90,8 @@ int main() {
     // Additional limits for other types
 }
 ```
+![](https://github.com/user-attachments/assets/cf65db55-a9b8-452e-8303-ac6485555e6a)
+
 ---
 #### Auto Keyword
 
