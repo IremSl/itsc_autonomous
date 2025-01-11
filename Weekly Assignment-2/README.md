@@ -149,7 +149,7 @@ This guide aims to provide a comprehensive understanding of memory management te
 - [**Garbage Collection Mechanism**](#garbage-collection-mechanism)
 - [**Smart Pointers**](#smart-pointers)
   - [Void Pointer](#void-pointer)
-  - [Null Pointer](#nullptr)
+  - [Null Pointer](#null-pointer)
   - [Auto Pointer](#auto-pointer)
   - [Unique Pointer](#unique-pointer)
   - [Shared Pointer](#shared-pointer)
