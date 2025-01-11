@@ -82,7 +82,7 @@ uint64_t b = 1000; // 64-bit unsigned integer
 # C++ POINTERS
 ---
 This document provides an in-depth explanation of pointers in C++, including basic pointer usage, garbage collection, smart pointers, raw pointers, wild pointers, data inconnsistency, buffer overflow, and ownership models. It covers topics such as null pointers, void pointers, unique pointers, shared pointers, weak pointers, and the differences between them, alongside examples.
----
+
 ## Table of Contents
 
 - **Pointers**
@@ -116,13 +116,12 @@ int* ptr = &a;  // ptr now holds the address of 'a'
 ```
 ### Key Operations:
 
-    Dereferencing: Access the value at the memory address the pointer is pointing to.
+Dereferencing: Access the value at the memory address the pointer is pointing to.
     
 ```cpp
 std::cout << *ptr;  // Prints the value of 'a'
 ```
-
-    Modifying Value via Pointer:
+ Modifying Value via Pointer:
     
 ```cpp
 *ptr = 20;  // Modifies the value of 'a' indirectly via pointer
@@ -168,8 +167,9 @@ unique_ptr is a smart pointer that ensures a resource is owned by only one point
 
 std::unique_ptr<int> ptr(new int(10));
 ```
-
 Example:
+
+
 ```cpp
 std::unique_ptr<A> p1(new A);
 p1->printA();  // Prints output using unique pointer
@@ -183,6 +183,7 @@ shared_ptr allows multiple pointers to share ownership of the same resource. It 
 std::shared_ptr<int> ptr1 = std::make_shared<int>(10);
 ```
 Example:
+
 ```cpp
 std::shared_ptr<A> p1(new A);
 std::cout << p1.use_count() << std::endl;  // Displays reference count
@@ -228,7 +229,8 @@ A **raw pointer** in C++ is a basic pointer that holds the memory address of a v
 ```cpp
 int* ptr = new int(10);
 // Forgetting to delete causes a memory leak
-
+```
+```cpp
 int* ptr = new int(10);
 delete ptr;
 std::cout << *ptr; // Accessing deleted memory (dangling pointer)
