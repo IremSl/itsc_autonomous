@@ -167,7 +167,7 @@ This guide aims to provide a comprehensive understanding of memory management te
   - [std::shared_ptr](#stdshared_ptr)
   - [std::weak_ptr](#stdweak_ptr)
 
- ## 1- Pointers
+ ##  Pointers
 
 In C++, a pointer is a variable that holds the memory address of another variable. Instead of directly storing data, a pointer stores the location where the data is stored in memory.
 
