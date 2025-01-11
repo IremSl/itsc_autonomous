@@ -242,7 +242,8 @@ Example:
 ```cpp
 int* p;  // Wild pointer
 *p = 12; // Undefined behavior: p points to unknown memory
-
+```
+```cpp
 int main() {
     int* p;  // p is a wild pointer
     int a = 10;
@@ -255,9 +256,13 @@ int main() {
 Data inconsistency occurs when data across multiple locations or systems doesn't align. This can result from mismatched data, outdated versions, duplication, or lack of synchronization.
 
   **Mismatched Data**: Data in multiple locations does not match.
+  
   **Different Versions of Data**: One part of the system uses an outdated value.
+  
   **Data Duplication**: Failing to update all copies of data leads to inconsistency.
+  
   **Lack of Synchronization**: Distributed systems can experience inconsistency if data isn't properly synchronized.
+  
   **Concurrency Problems**: Multi-user systems may experience inconsistency when multiple users update the same data simultaneously.
 
 ## Buffer Overflow
