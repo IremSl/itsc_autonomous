@@ -112,6 +112,9 @@ Examples include:
     
 ```cpp
 const int x = 15;
+```
+
+```cpp
 constexpr int max_size = 100;
 ```
 ---
