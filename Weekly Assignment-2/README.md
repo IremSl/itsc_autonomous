@@ -330,8 +330,12 @@ A buffer overflow occurs when more data is written to a buffer than it can hold.
 **Consequences**:
 
 -Memory corruption, potentially overwriting critical data.
+
+
 -Program crashes due to corrupted control structures.
+
 -Security vulnerabilities like code injection or taking control of program flow.
+
 ```cpp
 char buffer[10];
 strcpy(buffer, "This is too long!"); // This causes a buffer overflow
