@@ -270,6 +270,7 @@ std::weak_ptr<A> weakPtr = p1;
 ### Applications of Smart Pointers
 
  **Preventing Circular References**: weak_ptr helps avoid memory leaks caused by cyclic dependencies between shared_ptr objects.
+ 
  **Efficient Resource Management**: Smart pointers automate memory management, making it safer and easier to manage dynamically allocated memory.
  
 ---
