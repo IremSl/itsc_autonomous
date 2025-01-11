@@ -313,7 +313,9 @@ C++ provides different models for managing the ownership of dynamically allocate
   
   **When to Use**:
 
+
     Use when multiple parts of your program need access to a resource, and the resource should only be deleted when all owners are done with it.
+
     
   ```cpp
   std::shared_ptr<int> ptr1 = std::make_shared<int>(10);
@@ -326,7 +328,9 @@ C++ provides different models for managing the ownership of dynamically allocate
   
   **When to Use**:
 
+
     Use to avoid circular references or to observe an object without preventing its deletion.
+
     
   ```cpp
   std::weak_ptr<int> weak_ptr = ptr1; // weak_ptr does not affect reference count
