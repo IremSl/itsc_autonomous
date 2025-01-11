@@ -389,4 +389,5 @@ C++ provides different models for managing the ownership of dynamically allocate
 
 
 ## CONTACT
-For any issues or problems please reach out to Irem Aslan from 
+
+For any issues or questions please reach out to Irem Aslan at iremaslan0420@hotmail.com.
