@@ -99,14 +99,14 @@ This document provides an in-depth explanation of pointers in C++, including bas
   - **Shared Pointer**
   - **Weak Pointer**
 - **Applications of Smart Pointers**
-- **Raw Pointers**
-- **Wild Pointers**
-- **Data Inconsistency**
-- **Buffer Overflow**
-- **Ownership Models**
-  - **std::unique_ptr**
-  - **std::shared_ptr**
-  - **std::weak_ptr**
+- [Raw Pointers](#raw-pointers)
+- [Wild Pointers](#wild-pointers)
+- [Data Inconsistency](#data-inconsistency)
+- [Buffer Overflow](#buffer-overflow)
+- [Ownership Models](#ownership-models)
+  - [std::unique_ptr](#stdunique_ptr)
+  - [std::shared_ptr](#stdshared_ptr)
+  - [std::weak_ptr](#stdweak_ptr)
 
 ---
 
