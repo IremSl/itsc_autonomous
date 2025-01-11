@@ -396,7 +396,7 @@ C++ provides different models for managing the ownership of dynamically allocate
   std::weak_ptr<int> weak_ptr = ptr1; // weak_ptr does not affect reference count
   ```
 ---
-### Output of Creating Smart Pointers
+### Output of a Smart Pointers Example
 
 ![](https://github.com/user-attachments/assets/5b71de0f-1385-4023-8b6c-127bfdaee869)
 
