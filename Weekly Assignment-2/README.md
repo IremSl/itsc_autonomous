@@ -94,10 +94,7 @@ This section covers the numeric_limits template from the <limits> header, which 
 
 ```cpp
 
-cout<< setw(12)<<left<<"int";
-cout<< setw(15)<<right<<" ";
-cout<< setw(10)<<right<<numeric_limits<int>::min()
-<<"                "<< numeric_limits<int>::max()<<endl;cout<< setw(30)<<left<<"====================================";
+cout<< setw(30)<<left<<"====================================";
 cout<< setw(30)<<right<<"===================================="<<endl;
 cout<< setw(12)<<left<<"Type";
 cout<< setw(15)<<right<<" ";
