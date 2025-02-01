@@ -67,11 +67,14 @@ int main() {
 This section demonstrates how to find the size of pointers for various data types in C++.
 
 ```cpp
-long double g = 10;
-long double* pointerlongDouble = &g;
-cout << "Pointer long double --> " << sizeof(pointerlongDouble) << endl;
+int a=10;
+int *pointerInt= &a;
+cout<< setw(12)<<left<<"pointer int";
+cout<< setw(15)<<right<<" ";
+cout<< setw(10)<<right<<sizeof(pointerInt)<<endl;
 ```
-![](https://github.com/user-attachments/assets/88479061-23a2-41cd-bda9-74fb0824100e)
+![][Screenshot from 2025-02-01 14-29-18](https://github.com/user-attachments/assets/320fd902-4cb0-4a05-b6ec-50e4d0286d9b)
+
 
 ---
 #### Numeric Limits
@@ -85,13 +88,15 @@ This section covers the numeric_limits template from the <limits> header, which 
 using namespace std;
 
 int main() {
-    cout << "Lower limit of int: " << numeric_limits<int>::min() << endl;
-    cout << "Upper limit of int: " << numeric_limits<int>::max() << endl;
+cout<< setw(12)<<left<<"int";
+cout<< setw(15)<<right<<" ";
+cout<< setw(10)<<right<<numeric_limits<int>::min()
+<<"                "<< numeric_limits<int>::max()<<endl;
     // Additional limits for other types
 }
 ```
-![](![lowel](https://github.com/user-attachments/assets/d8f9e039-31a3-4c02-8b4b-ed96e2e94e1b)
-)
+![](https://github.com/user-attachments/assets/d8f9e039-31a3-4c02-8b4b-ed96e2e94e1b)
+
 
 ---
 #### Auto Keyword
