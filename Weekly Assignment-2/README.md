@@ -90,7 +90,8 @@ int main() {
     // Additional limits for other types
 }
 ```
-![](https://github.com/user-attachments/assets/cf65db55-a9b8-452e-8303-ac6485555e6a)
+![](![lowel](https://github.com/user-attachments/assets/d8f9e039-31a3-4c02-8b4b-ed96e2e94e1b)
+)
 
 ---
 #### Auto Keyword
