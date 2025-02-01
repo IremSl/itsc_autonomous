@@ -67,13 +67,24 @@ int main() {
 This section demonstrates how to find the size of pointers for various data types in C++.
 
 ```cpp
+
 int a=10;
 int *pointerInt= &a;
+
+cout<< setw(30)<<left<<"===============================";
+cout<< setw(30)<<right<<"==============================="<<endl;
+cout<< setw(12)<<left<<"Type";
+cout<< setw(15)<<right<<" ";
+cout<< setw(12)<<right<<"Size"<<endl;
+cout<< setw(30)<<left<<"===============================";
+cout<< setw(30)<<right<<"==============================="<<endl;
+
 cout<< setw(12)<<left<<"pointer int";
 cout<< setw(15)<<right<<" ";
 cout<< setw(10)<<right<<sizeof(pointerInt)<<endl;
+
 ```
-![][Screenshot from 2025-02-01 14-29-18](https://github.com/user-attachments/assets/320fd902-4cb0-4a05-b6ec-50e4d0286d9b)
+![](https://github.com/user-attachments/assets/320fd902-4cb0-4a05-b6ec-50e4d0286d9b)
 
 
 ---
@@ -82,17 +93,24 @@ cout<< setw(10)<<right<<sizeof(pointerInt)<<endl;
 This section covers the numeric_limits template from the <limits> header, which provides the minimum and maximum values for different types such as int, float, double, and more.
 
 ```cpp
-#include <iostream>
-#include <limits>
 
-using namespace std;
+cout<< setw(12)<<left<<"int";
+cout<< setw(15)<<right<<" ";
+cout<< setw(10)<<right<<numeric_limits<int>::min()
+<<"                "<< numeric_limits<int>::max()<<endl;cout<< setw(30)<<left<<"====================================";
+cout<< setw(30)<<right<<"===================================="<<endl;
+cout<< setw(12)<<left<<"Type";
+cout<< setw(15)<<right<<" ";
+cout<< setw(12)<<right<<"Lower Limit                Upper Limit"<<endl;
+cout<< setw(30)<<left<<"====================================";
+cout<< setw(30)<<right<<"===================================="<<endl;
 
-int main() {
 cout<< setw(12)<<left<<"int";
 cout<< setw(15)<<right<<" ";
 cout<< setw(10)<<right<<numeric_limits<int>::min()
 <<"                "<< numeric_limits<int>::max()<<endl;
-    // Additional limits for other types
+
+// Additional limits for other types
 }
 ```
 ![](https://github.com/user-attachments/assets/d8f9e039-31a3-4c02-8b4b-ed96e2e94e1b)
