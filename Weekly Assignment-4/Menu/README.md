@@ -68,10 +68,39 @@ g++ main.cpp Menu.cpp -o Menu
 
 Displays all available menu items categorized for easy browsing.
 
+![](https://github.com/user-attachments/assets/1bd69208-cf0f-4ced-af77-3f9c917662e7)
+
+
 ### Add an item to your menu,
 
  Allows you to add a selected item to your custom menu, with options like toppings or drink preferences.
- 
+
+#### starters
+
+ ![](https://github.com/user-attachments/assets/4044cab1-a729-4a3a-ae32-c41ed79c84b1)
+
+#### salads
+![](https://github.com/user-attachments/assets/32533d33-9e85-494c-8333-4b8e590830fa)
+
+
+#### main_courses
+
+![](https://github.com/user-attachments/assets/af81e2d2-6a51-4f73-9e10-bb07b10a7c3e)
+
+#### appetizers
+
+![](https://github.com/user-attachments/assets/e59a1682-c734-416c-b8ce-1e23b9fe6788)
+
+
+#### desserts
+
+![](https://github.com/user-attachments/assets/66f89696-3a10-4219-ab7b-3e78b1a83160)
+
+#### drinks
+
+![](https://github.com/user-attachments/assets/12d9011b-b2fe-4250-ae72-f6d81096a0a3)
+
+
 ### Remove an item from your  menu
 
 Lets you remove an item from your custom menu .
