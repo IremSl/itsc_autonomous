@@ -77,33 +77,31 @@ Displays all available menu items categorized for easy browsing.
 
 #### starters
 
- ![](https://github.com/user-attachments/assets/4044cab1-a729-4a3a-ae32-c41ed79c84b1)
+Displays the 'Starters' category and prompts you to choose between a hot or cold option before adding your selected item to the custom menu.
 
 #### salads
-![](https://github.com/user-attachments/assets/32533d33-9e85-494c-8333-4b8e590830fa)
 
+Displays the 'Salads' category and allows you to choose whether or not to add a topping to your salad. If you decide to add a topping, a list of options will be provided, with an extra topping costing $2.25. Once you've made your selection, the item is added to your custom menu.
 
 #### main_courses
 
-![](https://github.com/user-attachments/assets/af81e2d2-6a51-4f73-9e10-bb07b10a7c3e)
+Displays the 'Main Courses' category and allows you to choose your desired meal, including vegetarian options. After making your selection, it is added to your custom menu.
 
 #### appetizers
 
-![](https://github.com/user-attachments/assets/e59a1682-c734-416c-b8ce-1e23b9fe6788)
-
+Displays the 'Appetizers' and asks whether you prefer your appetizer before or after the main course. Based on your choice, it adds the item to your custom menu.
 
 #### desserts
 
-![](https://github.com/user-attachments/assets/66f89696-3a10-4219-ab7b-3e78b1a83160)
+Displays the 'Desserts' and offers the option to add extra chocolate for an additional charge of $1.50. Once the selection is made, the item is added to your custom menu.
 
 #### drinks
 
-![](https://github.com/user-attachments/assets/12d9011b-b2fe-4250-ae72-f6d81096a0a3)
-
+Displays the drinks and asks whether you would like your drink carbonated or with an extra shot of alcohol. If you decide on carbonation, the price increases by $1.50, and if you decide on an extra shot of alcohol, the price increases by $2.50. After making your decision, the item is added to your custom menu.
 
 ### Remove an item from your  menu
 
-Lets you remove an item from your custom menu .
+Allows the user to remove an item from your custom menu .
 
 ### Get a menu suggestion
 
