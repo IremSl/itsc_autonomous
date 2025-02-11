@@ -37,10 +37,15 @@ This project implements a menu management system using C++. The system allows us
 g++ main.cpp Menu.cpp -o Menu
 
    ```
+3. Run the program:
 
+```bash
 
+./Menu
 
-#### Sizes of Variables
+   ```
+
+## Setup and Compilation
 
 In this section, various data types are used to demonstrate their respective sizes in bytes.
 
