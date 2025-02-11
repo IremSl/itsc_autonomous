@@ -68,7 +68,7 @@ g++ main.cpp Menu.cpp -o Menu
 
 Displays all available menu items categorized for easy browsing.
 
-![](https://github.com/user-attachments/assets/1bd69208-cf0f-4ced-af77-3f9c917662e7)
+![](https://github.com/user-attachments/assets/113cf485-c647-4cb6-8274-9a77ba6519cf)
 
 
 ### Add an item to your menu,
@@ -114,6 +114,9 @@ Customizes a menu by selecting items that match your specified taste balance.
 ### Print your menu
 
 Displays your custom menu along with the total price.
+
+![](https://github.com/user-attachments/assets/3867ac16-251c-4565-9a72-dbaf8d5ba2a9)
+
 
 ### Exit
 
