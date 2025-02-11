@@ -42,6 +42,7 @@ g++ main.cpp Menu.cpp -o Menu
 ./Menu
 
    ```
+---
 
 ## Usage
 
@@ -122,6 +123,7 @@ Displays your custom menu along with the total price.
 
 Closes the program.
 
+---
 
 ## CONTACT
 
