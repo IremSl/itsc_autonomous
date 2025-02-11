@@ -101,7 +101,7 @@ Displays the drinks and asks whether you would like your drink carbonated or wit
 
 ### Remove an item from your  menu
 
-Allows the user to remove an item from your custom menu .
+Allows you to remove an item from your custom menu .
 
 ### Get a menu suggestion
 
@@ -118,13 +118,6 @@ Displays your custom menu along with the total price.
 ### Exit
 
 Closes the program.
-
-
-
-
-### Output of a Smart Pointers Example
-
-![](https://github.com/user-attachments/assets/5b71de0f-1385-4023-8b6c-127bfdaee869)
 
 
 ## CONTACT
