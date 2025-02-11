@@ -8,7 +8,7 @@ This project implements a menu management system using C++. The system allows us
 ## Features
 
 
-- **Load Menu from JSON:**: Reads menu items from menu.json.
+- **Load Menu from JSON:**: Reads menu items from `menu.json`.
 - **View the menu**: Displays different menu categories and their items.
 - **Custom menu creation**: Users can add items to their custom menu and specify preferences like toppings, temperature, drink carbonation, extra shot alcohol, adn extra chocolate..
 - **Remove Items from Custom Menu:**: Allows users to remove items from their custom selection.
@@ -21,7 +21,7 @@ This project implements a menu management system using C++. The system allows us
 
 ---
 
-## Dependencies
+## Requirements
 
 - **C++11 or later**
 - **nlohmann/json.hpp for JSON parsing**
@@ -30,8 +30,15 @@ This project implements a menu management system using C++. The system allows us
 
  ## Setup and Compilation
 
-- **C++11 or later**
-- **nlohmann/json.hpp for JSON parsing**
+1. Ensure that `menu.json` is in the same directory as the executable.
+2. Compile the project using:
+ ```bash
+
+g++ main.cpp Menu.cpp -o Menu
+
+   ```
+
+
 
 #### Sizes of Variables
 
