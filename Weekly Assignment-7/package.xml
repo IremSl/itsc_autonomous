@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>path_planner</name>
+  <version>0.0.1</version>
+  <description>The path_planner package</description>
+  <maintainer email="user@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>ament_index_python</exec_depend>
+
+</package>
