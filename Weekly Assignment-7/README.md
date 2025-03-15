@@ -49,14 +49,6 @@ ros2 run path_planner path_planner_node
 ```
 When prompted, enter `r` to start the movement.
 
-### Expected Behavior
-- The turtle starts at `(5.0, 5.0)`.
-- It moves towards randomly generated targets that are at least 3.0 units away from its current position.
-- The turtle avoids moving too close to the walls.
-- After reaching a target, it pauses for 2 seconds before selecting a new one.
-
- ![](https://github.com/user-attachments/assets/0e30a518-1146-4768-a210-82d05191a4a1)
- 
 
 ## Code Structure
 ```
@@ -68,6 +60,16 @@ path_planner/
     ├── package.xml  # ROS 2 package metadata
 
 ```
+
+
+### Expected Behavior
+- The turtle starts at `(5.0, 5.0)`.
+- It moves towards randomly generated targets that are at least 3.0 units away from its current position.
+- The turtle avoids moving too close to the walls.
+- After reaching a target, it pauses for 2 seconds before selecting a new one.
+
+ ![](https://github.com/user-attachments/assets/0e30a518-1146-4768-a210-82d05191a4a1)
+ 
 
 
 
