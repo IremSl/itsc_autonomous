@@ -1,1 +1,78 @@
 
+# Path Planner Node
+
+## Overview
+This is a ROS 2 (Robot Operating System 2) package that implements a path planner for Turtlesim. The node spawns a turtle at a predefined position and moves it to randomly generated targets while avoiding walls and ensuring the target is at least half the window size away from the initial position.
+
+## Features
+- Spawns a turtle in the Turtlesim environment
+- Reads the turtle's current pose
+- Generates a new target position that:
+  - Is not too close to walls
+  - Is at least 3.0 units away from the current position
+- Moves the turtle towards the target
+- Continuously selects new targets upon reaching the previous one
+
+## Installation
+### Prerequisites
+Ensure that you have ROS 2 and the Turtlesim package installed:
+```bash
+sudo apt update && sudo apt install ros-humble-turtlesim
+```
+*(Replace `humble` with your ROS 2 distribution if different.)*
+
+### Clone the Repository
+Navigate to your ROS 2 workspace and clone the repository:
+```bash
+cd ~/ros2_ws/src
+git clone <repository-url>
+```
+
+### Build the Package
+After cloning, build the package:
+```bash
+cd ~/ros2_ws
+colcon build --packages-select path_planner
+```
+
+### Source the Setup File
+Before running the node, source your workspace:
+```bash
+source install/setup.bash
+```
+
+## Usage
+### Launching the Node
+To start the path planner node, run:
+```bash
+ros2 run path_planner path_planner_node
+```
+When prompted, enter `r` to start the movement.
+
+### Expected Behavior
+- The turtle starts at `(5.0, 5.0)`.
+- It moves towards randomly generated targets that are at least 3.0 units away from its current position.
+- The turtle avoids moving too close to the walls.
+- After reaching a target, it pauses for 2 seconds before selecting a new one.
+
+## Code Structure
+```
+path_planner/
+├── include/
+│   ├── path_planner.hpp  # Header file for the PathPlannerNode class
+├── src/
+│   ├── path_planner_node.cpp  # Implementation of the node
+├── CMakeLists.txt  # CMake build file
+├── package.xml  # ROS 2 package metadata
+└── README.md  # Documentation
+```
+
+## License
+This project is licensed under the MIT License.
+
+## Contribution
+Feel free to fork the repository and submit a pull request with improvements!
+
+## Contact
+For any issues or suggestions, open an issue on GitHub or contact the maintainer.
+
