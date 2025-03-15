@@ -59,20 +59,14 @@ When prompted, enter `r` to start the movement.
 ```
 path_planner/
 ├── include/
-│   ├── path_planner.hpp  # Header file for the PathPlannerNode class
 ├── src/
 │   ├── path_planner_node.cpp  # Implementation of the node
 ├── CMakeLists.txt  # CMake build file
 ├── package.xml  # ROS 2 package metadata
-└── README.md  # Documentation
+
 ```
 
-## License
-This project is licensed under the MIT License.
 
-## Contribution
-Feel free to fork the repository and submit a pull request with improvements!
 
 ## Contact
-For any issues or suggestions, open an issue on GitHub or contact the maintainer.
-
+For any issues or questions please reach out to Irem Aslan at iremaslan0420@hotmail.com.
