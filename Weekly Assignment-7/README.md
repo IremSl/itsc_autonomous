@@ -55,6 +55,9 @@ When prompted, enter `r` to start the movement.
 - The turtle avoids moving too close to the walls.
 - After reaching a target, it pauses for 2 seconds before selecting a new one.
 
+ ![](https://github.com/user-attachments/assets/0e30a518-1146-4768-a210-82d05191a4a1)
+ 
+
 ## Code Structure
 ```
 path_planner/
