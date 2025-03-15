@@ -60,9 +60,9 @@ When prompted, enter `r` to start the movement.
 path_planner/
 ├── include/
 ├── src/
-│   ├── path_planner_node.cpp  # Implementation of the node
-├── CMakeLists.txt  # CMake build file
-├── package.xml  # ROS 2 package metadata
+    ├── path_planner.cpp  # Implementation of the node
+    ├── CMakeLists.txt  # CMake build file
+    ├── package.xml  # ROS 2 package metadata
 
 ```
 
