@@ -10,7 +10,7 @@
 
 This repository documents my training journey as a member of the **ITU Solar Car Team - Autonomous Division**. 
 
-The primary goal of the autonomous team is to develop software that enables our solar-powered vehicle to detect obstacles, navigate tracks, and complete competitions autonomously. To prepare for this complex task, I completed a series of **Weekly Assignments** designed to progressively build skills ranging from fundamental C++ logic to advanced memory management, Object-Oriented Programming (OOP), ROS 2 architecture, and finally, autonomous vehicle simulation.
+The primary goal of the autonomous team is to develop software that enables our vehicle to detect obstacles, navigate tracks, and complete competitions autonomously. To prepare for this complex task, I completed a series of **Weekly Assignments** designed to progressively build skills ranging from fundamental C++ logic to advanced memory management, Object-Oriented Programming (OOP), ROS 2 architecture, and finally, autonomous vehicle simulation.
 
 This roadmap culminates in a **Lane Keeping Assist System (LKAS)** implementation within the **CARLA Simulator**.
 
@@ -138,6 +138,7 @@ If you have any questions about these projects or my journey in the ITU Solar Ca
 
 ---
 *This repository is a compilation of weekly assignments completed for the ITU Solar Car Team Autonomous Division.*
+
 
 
 
