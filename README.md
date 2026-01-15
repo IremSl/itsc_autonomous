@@ -1,5 +1,4 @@
 # ITU SCT Autonomous Group
-This repository contains solutions to weekly assignments given by ITU SCT Autonomous Group.
 
 ![](https://github.com/user-attachments/assets/3bd6bc5c-5c48-4853-8c19-b863d7f5a7c1)
 
@@ -139,6 +138,7 @@ If you have any questions about these projects or my journey in the ITU Solar Ca
 
 ---
 *This repository is a compilation of weekly assignments completed for the ITU Solar Car Team Autonomous Division.*
+
 
 
 
