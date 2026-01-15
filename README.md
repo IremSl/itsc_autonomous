@@ -114,7 +114,7 @@ Using the **CARLA Simulator**, I developed a software stack for an autonomous ve
 
 *(Note: The full source code and detailed documentation for the Carla Lane Keeping project are hosted in a separate dedicated repository linked below.)*
 
- **[Link to CARLA Lane Keeping Repository]** *[https://github.com/IremSl/CARLA_autonomous-vehicle]*
+ **Link to CARLA Lane Keeping Repository:** *[https://github.com/IremSl/CARLA_autonomous-vehicle]*
 
 ---
 
@@ -138,6 +138,7 @@ If you have any questions about these projects or my journey in the ITU Solar Ca
 
 ---
 *This repository is a compilation of weekly assignments completed for the ITU Solar Car Team Autonomous Division.*
+
 
 
 
