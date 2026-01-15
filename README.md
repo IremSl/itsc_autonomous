@@ -5,7 +5,7 @@ This repository contains solutions to weekly assignments given by ITU SCT Autono
 
 # 🏎️ ITU Solar Car Team - Autonomous Driving Training Journey
 
-![ITU Solar Car Team](https://img.shields.io/badge/Team-ITU%20Solar%20Car-blue) ![Role-Autonomous%20Software](https://img.shields.io/badge/Role-Autonomous%20Software%20Developer-green) ![Status-Completed](https://img.shields.io/badge/Status-Completed-success)
+![ITU Solar Car Team](https://img.shields.io/badge/Team-ITU%20Solar%20Car-blue) ![Role-Autonomous%20Software](https://img.shields.io/badge/Role-Autonomous%20Software%20Developer-green) 
 
 ## 📖 Overview
 
@@ -139,3 +139,4 @@ If you have any questions about these projects or my journey in the ITU Solar Ca
 
 ---
 *This repository is a compilation of weekly assignments completed for the ITU Solar Car Team Autonomous Division.*
+
