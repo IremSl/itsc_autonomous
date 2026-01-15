@@ -3,11 +3,11 @@ This repository contains solutions to weekly assignments given by ITU SCT Autono
 
 ![](https://github.com/user-attachments/assets/3bd6bc5c-5c48-4853-8c19-b863d7f5a7c1)
 
-# 🏎️ ITU Solar Car Team - Autonomous Driving Training Journey
+#  ITU Solar Car Team - Autonomous Driving Training Journey
 
 ![ITU Solar Car Team](https://img.shields.io/badge/Team-ITU%20Solar%20Car-blue) ![Role-Autonomous%20Software](https://img.shields.io/badge/Role-Autonomous%20Software%20Developer-green) 
 
-## 📖 Overview
+##  Overview
 
 This repository documents my training journey as a member of the **ITU Solar Car Team - Autonomous Division**. 
 
@@ -17,7 +17,7 @@ This roadmap culminates in a **Lane Keeping Assist System (LKAS)** implementatio
 
 ---
 
-## 🚀 Learning Roadmap & Projects
+##  Learning Roadmap & Projects
 
 The training consisted of 5 main modules, increasing in complexity:
 
@@ -115,11 +115,11 @@ Using the **CARLA Simulator**, I developed a software stack for an autonomous ve
 
 *(Note: The full source code and detailed documentation for the Carla Lane Keeping project are hosted in a separate dedicated repository linked below.)*
 
-👉 **[Link to CARLA Lane Keeping Repository]** *(Insert your link here)*
+ **[Link to CARLA Lane Keeping Repository]** *(Insert your link here)*
 
 ---
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 
 * **Languages:** C++ (C++11/14/17), Python
 * **Frameworks:** ROS 2 (Humble/Foxy)
@@ -130,13 +130,14 @@ Using the **CARLA Simulator**, I developed a software stack for an autonomous ve
 
 ---
 
-## 📬 Contact
+##  Contact
 
 If you have any questions about these projects or my journey in the ITU Solar Car Team, feel free to reach out:
 
-**Irem Aslan** 📧 Email: iremaslan0420@hotmail.com  
-🔗 LinkedIn: [Your LinkedIn Profile Link]
+**Irem Aslan**  Email: iremaslan0420@hotmail.com  
+ LinkedIn: [Your LinkedIn Profile Link]
 
 ---
 *This repository is a compilation of weekly assignments completed for the ITU Solar Car Team Autonomous Division.*
+
 
